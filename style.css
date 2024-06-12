@@ -1,0 +1,71 @@
+@font-face {
+    font-family: 'Casino';
+    src: url(./fonts/Casino.ttf);
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background: url(./bg.jpg );
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    backdrop-filter:brightness(50%);
+    color: white;
+    font-weight: 700;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    width: 375px;
+    padding: 2.5rem;
+    background: rgba(0, 0, 0, 0.567);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(97, 97, 97, 0.1);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0);
+}
+
+p{
+    margin: 20px 0;
+}
+
+h1{
+    color: goldenrod;
+    font-weight: bolder;
+    font-family: 'Casino';
+}
+
+button{
+    width: 85%;
+    display: block;
+    margin: 5px auto;
+    padding: 10px 0;
+    border-radius: 25px;
+    background-color: goldenrod;
+    color: #1c2d23;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+button:hover {
+    color: #037434;
+    background-color: rgb(180, 135, 21);
+
+}
+
+
